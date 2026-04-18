@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e173acaf1f92054408c5326a05c98f54
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298910
+  packageName: 'Time Ghost: Character - HDRP'
+  packageVersion: 1.2
+  assetPath: Assets/Characters/Hair/Shaders/HairUVWorkaround.hlsl
+  uploadId: 710849

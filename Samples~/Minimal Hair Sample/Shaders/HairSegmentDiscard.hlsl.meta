@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8079171bce6fdc14faf09bc112a4116a
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298910
+  packageName: 'Time Ghost: Character - HDRP'
+  packageVersion: 1.2
+  assetPath: Assets/Characters/Hair/Shaders/HairSegmentDiscard.hlsl
+  uploadId: 710849

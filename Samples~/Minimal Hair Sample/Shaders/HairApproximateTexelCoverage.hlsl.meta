@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1a9e2f2da8a60be4b9ef42b0b5db1945
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298910
+  packageName: 'Time Ghost: Character - HDRP'
+  packageVersion: 1.2
+  assetPath: Assets/Characters/Hair/Shaders/HairApproximateTexelCoverage.hlsl
+  uploadId: 710849

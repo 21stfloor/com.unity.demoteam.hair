@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa43174af52f7c646bb4c5c794d73baa
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298910
+  packageName: 'Time Ghost: Character - HDRP'
+  packageVersion: 1.2
+  assetPath: Assets/Characters/Hair/Shaders/CalculateHairColorAndRoughness.hlsl
+  uploadId: 710849

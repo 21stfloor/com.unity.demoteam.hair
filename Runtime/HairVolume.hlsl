@@ -3,6 +3,7 @@
 
 #include "HairSimData.hlsl"
 #include "HairSimComputeVolumeUtility.hlsl"
+#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
 
 Texture3D _UntypedVolumeDensity;
 Texture3D _UntypedVolumeVelocity;
@@ -34,12 +35,28 @@ void HairVolume_float(
 		out_cellSizeWS = VolumeWorldCellSize(lodGrid);
 		out_cellSizeUVW = 1.0f / lodGrid.volumeCellCount;
 #if UNITY_VERSION >= 202023
-		out_volumeDensity.tex = _UntypedVolumeDensity;
-		out_volumeDensity.samplerstate = _Volume_trilinear_clamp;
-		out_volumeVelocity.tex = _UntypedVolumeVelocity;
-		out_volumeVelocity.samplerstate = _Volume_trilinear_clamp;
-		out_volumeScattering.tex = _UntypedVolumeScattering;
-		out_volumeScattering.samplerstate = _Volume_trilinear_clamp;
+
+		out_volumeDensity =
+		UnityBuildTexture3DStructInternal(
+			_UntypedVolumeDensity,
+			_Volume_trilinear_clamp,
+			float4(0,0,0,0)
+		);
+
+		out_volumeVelocity =
+		UnityBuildTexture3DStructInternal(
+			_UntypedVolumeVelocity,
+			_Volume_trilinear_clamp,
+			float4(0,0,0,0)
+		);
+
+		out_volumeScattering =
+		UnityBuildTexture3DStructInternal(
+			_UntypedVolumeScattering,
+			_Volume_trilinear_clamp,
+			float4(0,0,0,0)
+		);
+
 #else
 		out_volumeDensity = _UntypedVolumeDensity;
 		out_volumeVelocity = _UntypedVolumeVelocity;

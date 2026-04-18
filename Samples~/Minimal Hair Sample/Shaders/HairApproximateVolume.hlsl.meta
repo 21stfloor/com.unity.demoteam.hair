@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70181b8668c3b2046800da178202855e
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298910
+  packageName: 'Time Ghost: Character - HDRP'
+  packageVersion: 1.2
+  assetPath: Assets/Characters/Hair/Shaders/HairApproximateVolume.hlsl
+  uploadId: 710849

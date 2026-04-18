@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70c5463b99c828c44ae67154c0ff2f9e
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 298910
+  packageName: 'Time Ghost: Character - HDRP'
+  packageVersion: 1.2
+  assetPath: Assets/Characters/Hair/Shaders/HairInstanceWidthToParticleWidth.hlsl
+  uploadId: 710849
